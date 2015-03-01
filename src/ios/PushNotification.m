@@ -13,6 +13,7 @@
 #import "PushNotification.h"
 #import <CoreLocation/CoreLocation.h>
 #import "AppDelegate.h"
+#import "Cordova/CDVViewController.h" 
 
 #define WRITEJS(VAL) [NSString stringWithFormat:@"setTimeout(function() { %@; }, 0);", VAL]
 
